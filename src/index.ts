@@ -5,7 +5,7 @@ import { add, initBody } from "@bospieter/ws-helper";
 import { interval, Observable } from "rxjs";
 import { map, take, share } from "rxjs/operators";
 
-initBody("rx-js");
+initBody("rx-js ");
 
 const obs = Observable.create(function(observer) {
   observer.next("Hello Pieter");
